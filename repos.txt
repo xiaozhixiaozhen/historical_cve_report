@@ -1,0 +1,2 @@
+cgr.dev/chainguard-private/airflow:latest
+cgr.dev/chainguard-private/python:latest
