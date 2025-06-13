@@ -1,8 +1,6 @@
-# historical_cve_report
+# Historical CVE Analysis Scripts
 
-# CVE Analysis Scripts
-
-Generate comprehensive vulnerability reports for container repositories using the Chainguard Enforce API.
+Generate historical CVE reports for customer's entitled images using the Chainguard Enforce API.
 
 ## Prerequisites
 
@@ -80,5 +78,5 @@ chainctl auth login
 
 **Permission denied:**
 ```bash
-chmod +x *.sh
+chmod +x script.sh
 ```
