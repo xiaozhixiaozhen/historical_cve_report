@@ -57,7 +57,8 @@ Metric,Value,Description
 ```bash
 ./script.sh <repo_list_file> <output_file> [from_date] [to_date]
 ```
-**Interactive Mode (Recommended)**
+
+**Interactive Mode (Recommended):**
 ```bash
 /script.sh repos.txt vulnerability_report.csv
 ```
@@ -66,7 +67,8 @@ When run without date parameters, the script will prompt you to choose:
 Number of days back (e.g., 7, 30, 90 days)
 Custom date range with specific start/end dates
 
-**Command Line Mode**
+
+**Command Line Mode:**
 ```bash
 ./script.sh repos.txt report.csv 2025-05-01T00:00:00Z 2025-06-11T00:00:00Z
 ```
