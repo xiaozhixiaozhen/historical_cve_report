@@ -55,13 +55,7 @@ Metric,Value,Description
 
 **Basic usage:**
 ```bash
-./script.sh repos.txt optum_cve_report.csv
-```
-
-**Automated daily reports:**
-```bash
-# Add to crontab
-0 6 * * * /path/to/script.sh /path/to/repos.txt /reports/daily_$(date +\%Y\%m\%d).csv
+./script.sh <repo_list_file> <output_file> [from_date] [to_date]
 ```
 
 ## Troubleshooting
